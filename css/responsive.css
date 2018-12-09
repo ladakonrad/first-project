@@ -1,136 +1,61 @@
 @media all and (max-width: 1920px) {
-    h1 {
-        left: 1400px;
-        top: 70px;
-        font-size: 50px;
-
-    }
-
-    p {
-        left: 1320px;
-        top: 120px;
-        font-size: 38px;
-    }
-    
-    .galery-bg {
-        height: 120vh;
-    }
-    
     .galery-photo img {
         height: 400px;
+    }
+
+    .galery-bg {
+        height: 1200px;
     }
 }
 
 @media all and (max-width: 1366px) {
-    h1 {
-        font-size: 42px;
-        top: 15px;
-        left: 950px;
-
-    }
-
-    p {
-        font-size: 25px;
-        top: 66px;
-        left: 965px;
-    }
-    
-    .galery-bg {
-        height: 120vh;
-    }
-    
     .galery-photo img {
         height: 250px;
+    }
+
+    .galery-bg {
+        height: 800px;
     }
 }
 
 @media all and (max-width: 1024px) {
+
     h1 {
-        font-size: 42px;
-        top: 100px;
-        left: 700px;
-
+        font-size: 3vh;
+         top: 20%;
+        left: 68%;
+        
     }
-
+    
     p {
-        font-size: 25px;
-        top: 160px;
-        left: 680px;
+        font-size: 2.5vh;
+         top: 28%;
+        left: 70%;
+        
     }
-    
-    .galery-bg {
-        height: 95vh;
-    }
-    
+
     .galery-photo img {
         height: 250px;
     }
-}
 
-@media all and (max-width: 992px) {
-    h1 {
-        font-size: 42px;
-        top: 15px;
-        left: 150px;
-
-    }
-
-    p {
-        font-size: 25px;
-        top: 66px;
-        left: 965px;
-    }
-    
     .galery-bg {
-        height: 120vh;
-    }
-    
-    .galery-photo img {
-        height: 250px;
+        height: 1300px;
     }
 }
+
 @media all and (max-width: 768px) {
+    
     h1 {
-        font-size: 36px;
-        top: 100px;
-        left: 500px;
-
+        font-size: 4vh;
+        
     }
-
+    
     p {
-        font-size: 18px;
-        top: 160px;
-        left: 500px;
+        font-size: 3.5vh;
+        left: 69%;
+        
     }
     
-    .galery-bg {
-        height: 125vh;
-    }
-    
-    .galery-photo img {
-        height: 250px;
-    }
 }
 
 @media all and (max-width: 480px) {
-       h1 {
-        font-size: 18px;
-        top: 70px;
-        left: 235px;
-
-    }
-
-    p {
-        font-size: 10px;
-        top: 90px;
-        left: 230px;
-    }
-    
-    .galery-bg {
-        height: 2300px;
-    }
-    
-    .galery-photo img {
-        height: 250px;
-    }
-}
