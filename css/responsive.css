@@ -44,17 +44,71 @@
     }
 }
 
-@media all and (max-width: 992px) {
-    .galery-photo {
-        width: 25%;
-        height: 25%;
+@media all and (max-width: 1024px) {
+    h1 {
+        font-size: 42px;
+        top: 100px;
+        left: 700px;
+
+    }
+
+    p {
+        font-size: 25px;
+        top: 160px;
+        left: 680px;
+    }
+    
+    .galery-bg {
+        height: 95vh;
+    }
+    
+    .galery-photo img {
+        height: 250px;
     }
 }
 
+@media all and (max-width: 992px) {
+    h1 {
+        font-size: 42px;
+        top: 15px;
+        left: 150px;
+
+    }
+
+    p {
+        font-size: 25px;
+        top: 66px;
+        left: 965px;
+    }
+    
+    .galery-bg {
+        height: 120vh;
+    }
+    
+    .galery-photo img {
+        height: 250px;
+    }
+}
 @media all and (max-width: 768px) {
-    .galery-photo {
-        width: 25%;
-        height: 25%;
+    h1 {
+        font-size: 36px;
+        top: 100px;
+        left: 500px;
+
+    }
+
+    p {
+        font-size: 18px;
+        top: 160px;
+        left: 500px;
+    }
+    
+    .galery-bg {
+        height: 125vh;
+    }
+    
+    .galery-photo img {
+        height: 250px;
     }
 }
 
