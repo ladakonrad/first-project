@@ -134,7 +134,7 @@ h3 {
 }
 
 .galery-bg {
-    background-image: url('/img/bg-gallery.jpg');
+    background-image: url('img/bg-gallery.jpg');
     background-size: cover;
     background-position: center;
     flex-basis: 100%;
