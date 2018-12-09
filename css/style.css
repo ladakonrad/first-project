@@ -16,7 +16,7 @@ h1 {
     color: white;
     position: absolute;
     top: 15px;
-    left: 980px;
+    left: 950px;
 }
 
 p {
@@ -138,18 +138,18 @@ h3 {
     background-size: cover;
     background-position: center;
     flex-basis: 100%;
-    height: 130vh;
     width: 100%;
+    height: 120vh;
     opacity: 0.5;
     position: relative;
+   
 }
 
 .galery-photo {
-    padding-top: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-top: 50px;
     position: absolute;
 }
 
@@ -165,17 +165,21 @@ footer {
 }
 
 iframe {
-    padding-top: 80px;
+    padding-top: 15px;
     flex-basis: 45%;
 }
 
 #contact-box {
+    margin-top: 50px;
     background-color: #be1414;
     color: #ffff;
 }
 
+#contact-box h2 {
+    margin-top: -100px
+}
+
 #contact {
-    padding-top: 40px;
     flex-basis: 45%;
     padding-bottom: 50px;
 }
@@ -189,7 +193,7 @@ iframe {
 }
 
 .contact-inner:first-child {
-    padding-top: 70px;
+    padding-top: 35px;
 }
 
 .contact-inner a {
