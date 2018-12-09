@@ -113,7 +113,24 @@
 }
 
 @media all and (max-width: 480px) {
+       h1 {
+        font-size: 18px;
+        top: 70px;
+        left: 235px;
+
+    }
+
+    p {
+        font-size: 10px;
+        top: 90px;
+        left: 230px;
+    }
+    
     .galery-bg {
-        height: 360vh;
+        height: 2300px;
+    }
+    
+    .galery-photo img {
+        height: 250px;
     }
 }
